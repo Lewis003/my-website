@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="celebration.css">
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+</head>
+<script>
+    // Function to clear the input fields
+    function clearFields() {
+        document.getElementById("recipe-title").value = "";
+        document.getElementById("num-servings").value = "";
+        document.getElementById("recipe-ingredients").value = "";
+        document.getElementById("recipe-directions").value = "";
+        document.getElementById("email").value = "";
+    }
+
+    // Call the clearFields function when the page loads
+    window.onload = clearFields;
+</script>
+
+<body>
+    <div class="celebration">
+        <div class="confetti"></div>
+        <h1>Congratulations!</h1>
+        <p>Your recipe has been successfully uploaded.</p>
+    </div>
+    
+</body>
+</html>

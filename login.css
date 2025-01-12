@@ -1,0 +1,174 @@
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background: url('https://img.freepik.com/free-photo/vegetarian-food_23-2148023522.jpg?size=626&ext=jpg&ga=GA1.1.1902004363.1698507687&semt=ais');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-center {
+  width: 90vw;
+  max-width: 100%;
+}
+
+.nav-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #292c2f;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header .logo {
+  font-size: 25px;
+  color: orange;
+  margin-right: 40px;
+  text-decoration: unset;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: horizontal;
+  transition: 0.3s;
+}
+
+.nav-link {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 40px;
+  transition: 3s;
+}
+
+.nav-link:hover {
+  color: burlywood;
+}
+
+.contact-link a {
+  padding: 0.15rem 1rem;
+  color: #FF4500;
+  background-color: #1a8a72;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-link a:hover {
+  background-color: #FF4500;
+  color: #3a3f3e;
+}
+
+/* Form Styles */
+#form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#form h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3C00A0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3C00A0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btn:hover {
+  background-color: orange;
+}
+
+/* CSS for the error message */
+.error-message {
+  color: #ff4d4d;
+  background-color: #fdd;
+  border: 1px solid #fbb;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* JavaScript Validation */
+.alert-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* CSS for the paragraph */
+p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Style the link within the paragraph */
+p a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}

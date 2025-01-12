@@ -1,0 +1,118 @@
+/*
+=============== 
+About Page
+===============
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background: url('../assets/background.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust this to position the button to the right */
+}
+
+.nav-center {
+    width: 90vw;
+    max-width: 100%;
+}
+
+.nav-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #292c2f;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header .logo {
+    font-size: 25px;
+    color: orange;
+    margin-right: 40px;
+    text-decoration:unset;
+    font-weight: 600;
+}
+
+
+.nav-links {
+    display: flex;
+    flex-direction: horizontal;
+    transition: 0.3s;
+  }
+
+.nav-link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 40px;
+    transition: 3secs;
+  }
+
+.nav-link:hover {
+    color: burlywood;
+  }
+
+.contact-link a {
+    padding: 0.15rem 1rem;
+    color: #FF4500; /* Change this to your desired color */
+    background-color: #1a8a72; /* Add a background color */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.contact-link a:hover {
+    background-color: #FF4500; /* Change hover background color */
+    color: #3a3f3e; /* Change hover text color */
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    background-image: url('../assets/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 20px;
+    color: #fff; 
+    font-size: 18px;
+  }
+  
+  .about-text h2 {
+    text-transform: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .about-text p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  
