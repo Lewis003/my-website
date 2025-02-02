@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <section class="upload-section">
     <div class="upload-container">
         <h2>Submit your recipe to Recipehub!</h2>
-        <p>Recipe is looking for new recipes and wants to feature YOURS on our website! Got a recipe that's been passed down in the family? A new recipe you came up with?</p>
+        <p>RecipeHub is looking for new recipes and wants to feature YOURS on our website! Got a recipe that's been passed down in the family? A new recipe you came up with?</p>
          
         <div class="recipe-details">
             <h3>Recipe Details</h3>
@@ -120,4 +120,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <script src="js/app.js"></script>
 </body>
-</html>
+</html> 
